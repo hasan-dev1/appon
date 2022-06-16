@@ -1,0 +1,40 @@
+
+
+.main-menu-ds{
+    li{
+        display: inline-block;
+
+        a{
+            font-weight: 700;
+            font-size: 14px;
+            transition: .4s;
+            color: #2196f3;
+            padding: 3px 20px !important;
+            border-radius: 9px 0px 9px 0px;
+            position: relative;
+            margin: 0px 2px;
+            &:hover{
+                background: #2196f3;
+                color: white;
+            }
+            &::after{
+                height: 2px;
+                width:0%;
+                background: #2196f3;
+                content: '';
+                position: absolute;
+                bottom:-5px;
+                left: 0px;
+                transition: .4s;
+                
+
+            }
+            &:hover::after {
+                width: 100%;
+            }
+        }
+        
+    }
+    
+}
+

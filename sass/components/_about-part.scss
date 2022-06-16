@@ -1,0 +1,96 @@
+
+
+@import "../varible/variable";
+
+
+
+#about-part-head{
+    padding: 80px 0px;
+}
+
+.icondivtwo{
+    i{
+        transform: rotate(-45deg);
+    }
+}
+
+.about-icon{
+    .icondivone{
+        display: inline-block;
+        position: relative;
+        &::before{
+            content: '';
+            height: 2px;
+            width: 80px;
+            position: absolute;
+            top: 10px;
+            left:30px;
+            background: #000;
+        }
+        &::after{
+            content: '';
+            height: 2px;
+            width: 80px;
+            position: absolute;
+            top: 10px;
+            right:30px;
+            background: #000;
+        }
+        .icondivtwo{
+            position: relative;
+             &::before{
+            content: '';
+            height: 2px;
+            width: 100px;
+            position: absolute;
+            top: 15px;
+            left:30px;
+            background: #000;
+        }
+        &::after{
+            content: '';
+            height: 2px;
+            width: 100px;
+            position: absolute;
+            top:15px;
+            right:30px;
+            background: #000;
+        }
+        i{
+            font-size: 30px;
+        }
+
+        }
+    }
+}
+.abtext{
+    h3{
+        font-weight: 700;
+        font-size: 40px;
+        color: $banner-bttn-text-clr;
+        text-transform: uppercase;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 10px;
+
+    }
+}
+.about-main-text{
+   
+    p{
+        color: $banner-bttn-text-clr;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+         margin-top: 60px;
+        font-family: 'Raleway', sans-serif;
+
+    }
+    h5{
+     color: $banner-bttn-text-clr;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+         margin-top: 30px;
+        font-family: 'Raleway', sans-serif;  
+    }
+}

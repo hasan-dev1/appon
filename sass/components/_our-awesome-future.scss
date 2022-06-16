@@ -1,0 +1,169 @@
+
+@import "../varible/variable";
+
+#oaf-part{
+    padding: 80px 0px;
+    background: rgb(211, 210, 210);
+}
+.flist{
+    display: flex;
+    justify-content: start;
+    .prodct-one{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-bottom: 30px ;
+        padding-top: 30px;
+        border-bottom: 2px solid $banner-bttn-text-clr;
+        width: 80%;
+        transition: .4s;
+        &:hover{
+            width: 100%;
+
+            .oaf-icon{
+                i{
+                    color: $oaf-icon-hover;
+                }
+            }
+            .oaf-text{
+                h3{
+                    color: $oaf-icon-hover;
+                }
+                p{
+                    color: $oaf-icon-hover;
+                }
+            }
+        }
+
+        .oaf-icon{
+            i{
+                font-size: 35px;
+                margin-right: 10px;
+                transition: .4s;
+            }
+        }
+        .oaf-text{
+            h3{
+                font-weight: 700;
+                font-size: 18px;
+                color: $banner-bttn-text-clr;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+                font-family: 'Raleway', sans-serif;
+                transition: .4s;
+            }
+            p{
+                margin-bottom: 0px !important;
+                color: $about-part-p-color;
+                font-weight: 400;
+                font-size: 13px;
+                font-family: 'Open Sans', sans-serif;
+                transition: .4s;
+            }
+        }
+    }
+}
+
+.temporarmix{
+    position: relative;
+    display: inline-block;
+    &::after{
+        content: '';
+        height: 2px;
+        width: 80px;
+        position: absolute;
+        top: 10px;
+        left:30px;
+        background: #000;
+
+    }
+    &::before{
+        content: '';
+        height: 2px;
+        width: 80px;
+        position: absolute;
+        top: 10px;
+        right:30px;
+        background: #000;
+
+    }
+    .temporarmixtwo{
+        position: relative;
+        display: inline-block;
+
+        &::after{
+        content: '';
+        height: 2px;
+        width: 100px;
+        position: absolute;
+        top: 15px;
+        left:30px;
+        background: #000;
+
+    }
+    &::before{
+        content: '';
+        height: 2px;
+        width: 100px;
+        position: absolute;
+        top: 15px;
+        right:30px;
+        background: #000;
+    }
+    i{
+        font-size: 30px;
+        transform: rotate(-45deg);
+    }
+}
+
+}
+.oaf-textone{
+    h3{
+        color: $banner-bttn-text-clr;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+
+    }
+}
+
+.ourafuture{
+    margin-bottom: 40px;
+}
+
+// middle img
+.middle-img-this{
+    padding: 34px;
+}
+// middle img 
+
+.oaf-right-part{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+.oaf-right-part{
+    margin-top: 100px;
+    h3{
+        font-weight: 700;
+        font-size: 18px;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+
+    }
+    p{
+       font-weight: 400;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        padding: 30px 0px;
+    }
+    h6{
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        
+    }
+    
+}

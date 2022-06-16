@@ -1,0 +1,56 @@
+
+@import "../varible/variable";
+
+
+
+.slider{
+    margin-left: 5px;
+}
+.sliders{
+    position: relative;
+    padding:0px 0px 80px 0px;
+    margin-bottom: 60px;
+}
+.slick-dots{
+    position: absolute;
+    bottom:-10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+      li{
+          display: inline-block;
+          margin: 2px;
+          font-size: 0px;
+          padding:3px;
+          background:transparent;
+          border: 2px solid $banner-bttn-text-clr;
+          border-radius: 50%;
+          button{
+              padding: 8px;
+              font-size: 0px;
+              background:transparent;
+              border-radius: 50%;
+              border: none;
+            transition: .4s;
+            scale: 0;
+            &:focus{
+                outline: none;
+            }
+          }
+      }
+}
+
+.hrtnjl{
+    padding: 100px 0px 0px 0px;
+}
+
+.slick-dots .slick-active{
+    border: 2px solid $oaf-icon-hover;
+}
+.slick-dots .slick-active button{
+    background:$oaf-icon-hover;
+    scale: 1;
+}
+
+
+

@@ -1,0 +1,20 @@
+
+
+.watch-video-bg-part{
+    background: url(../images/watch-bg-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.watch-ovarlay{
+    padding: 200px 0px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.watch-ovarlay i{
+    color: white;
+    font-size: 50px;
+}

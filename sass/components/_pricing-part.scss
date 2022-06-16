@@ -1,0 +1,109 @@
+
+
+
+
+
+#pricing-head{
+    padding: 80px 0px;
+}
+
+.pricing-box{
+    border: 2px solid $pricing-box-up-dw-tbg-color;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .pricing-up-text{
+        width: 100%;
+        text-align: center;
+        h3{
+            background-color:$pricing-box-up-dw-tbg-color;
+            line-height: 40px;
+            font-weight: 700;
+            font-size: 17px;
+            text-transform: uppercase;
+            font-family: 'Raleway', sans-serif;
+            transition: .4s;
+
+        }
+    }
+    .pricing-pm-para{
+        padding: 25px 0px;
+        display: flex;
+        align-items: center;
+        transition: .4s;
+        .ppp-middle{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%;
+            border: 3px solid $pricing-box-up-dw-tbg-color;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h3{
+                font-family: 'Raleway', sans-serif;
+                span{
+                    font-size: 50px;
+                    font-weight: 600;
+                }
+            }
+            p{
+                padding: 0;
+                margin: 0;
+                font-size: 16px;
+                font-weight: 600;
+                text-transform: capitalize;
+                font-family: 'Raleway', sans-serif;
+                margin-top: 5px;
+            }
+        }
+    }
+    .pricing-dw-text{
+        background:$pricing-box-up-dw-tbg-color;
+        text-align: center;
+        position: relative;
+        p{
+            padding:30px 56px 50px 56px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            transition: .4s;
+            transform: translate3d(0px,10px,0px);
+        }
+        a{
+            display: inline-block;
+            padding: 5px 20px;
+            border-radius: 5px;
+            border: 1px solid #000;
+            position: absolute;
+            left:50%;
+            transform: translateX(-50%);
+            bottom: -20px;
+            transition: .4s;
+            color: black;
+            
+        }
+    }
+}
+.pricing-box:hover .pricing-dw-text a{
+    background: $oaf-icon-hover;
+    border: 1px solid $oaf-icon-hover;
+    color:white;
+
+}
+.pricing-box:hover .pricing-dw-text p{
+    transform: translate3d(0px,-10px,0px);
+
+}
+.pricing-box:hover .pricing-up-text h3{
+    background: $oaf-icon-hover;
+    color: white;
+
+}
+.pricing-box:hover .pricing-pm-para{
+    scale: 1.1;
+
+}

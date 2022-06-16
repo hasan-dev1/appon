@@ -1,0 +1,24 @@
+
+
+
+@mixin slidertw-lg-shape() {
+    width:800px;
+    height:220px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background: rgb(236, 224, 224);
+    position: relative;
+    border-radius: 3px;
+    
+}
+@mixin slidertw-little-shape(){
+    position: absolute;
+       height: 40px;
+       width: 40px;
+       background: rgb(236, 224, 224);
+       bottom:-15px;
+       left: 50%;
+       transform: translateX(-50%) rotate(-45deg);
+       border-radius: 3px;
+       z-index: -1;
+}

@@ -1,0 +1,47 @@
+
+
+
+#banner-part{
+    background: url(../images/banner-imgone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.banner-img-overlay{
+    padding: 20px 0px 125px 0px;
+    background: hsla(0, 0%, 0%, 0.7);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    line-height: .8;
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+ul,
+ol {
+    list-style-type: none;
+}

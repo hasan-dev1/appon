@@ -1,0 +1,109 @@
+#our-awesome-team-head {
+    padding: 80px 0px;
+}
+
+.our-at-title {
+    margin-bottom: 90px;
+}
+
+
+
+.img-part {
+    padding: 30px;
+}
+
+.oaimg-one {
+    position: relative;
+
+    .lfimg {
+        transition: .4s;
+        position: relative;
+
+        .img-overlay {
+            background: hsla(0, 0%, 0%, 0.7);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            scale: 0;
+
+            a {
+                width: 40px;
+                height: 40px;
+                background: white;
+                color: $banner-bttn-text-clr;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 115px 5px 0px 5px;
+                color: $banner-bttn-text-clr;
+                transition: .4s;
+
+                &:hover {
+                    background-color: $oaf-icon-hover;
+                    color: white;
+                }
+            }
+        }
+
+    }
+
+    .lftext {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        transition: .4s;
+        z-index: -1;
+        border: 1px solid $about-part-p-color;
+        border-radius: 0px 0px 5px 5px;
+
+
+        h3 {
+            font-weight: 700;
+            font-size: 18px;
+            font-family: 'Raleway', sans-serif;
+            color: $banner-bttn-text-clr;
+            text-transform: uppercase;
+            margin-top: 50px;
+
+        }
+
+        h4 {
+            font-weight: 400;
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            color: $banner-bttn-text-clr;
+            text-transform: capitalize;
+            padding-top: 15px;
+            padding-bottom: 25px;
+
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            color: $about-part-p-color;
+            font-family: 'Open Sans', sans-serif;
+
+        }
+
+    }
+}
+
+.oaimg-one:hover .lftext {
+    transform: translateY(70px);
+}
+
+.oaimg-one:hover .img-overlay {
+    scale: 1;
+}
+
+.oaimg-one:hover .lfimg {
+    transform: translateY(-100px);
+}

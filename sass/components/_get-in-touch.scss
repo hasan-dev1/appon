@@ -1,0 +1,39 @@
+
+
+#get-in-thead{
+    padding: 80px 0px;
+
+}
+
+.get-inpart{
+    input{
+        width: 100%;
+        padding: 10px;
+        text-transform: capitalize;
+        &:focus{
+            outline: none;
+        }
+    }
+}
+
+.get-messes-part{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    input{
+        width: 100%;
+        padding: 10px 10px 150px 10px;
+        text-transform: capitalize;
+    }
+    a{
+        display: inline-block;
+        padding: 5px 15px;
+        background:$oaf-icon-hover;
+        color: white;
+        margin-top: 15px;
+        border-radius: 4px;
+
+    }
+}

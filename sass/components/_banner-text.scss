@@ -1,0 +1,98 @@
+
+
+@import "../varible/variable";
+
+
+
+.banner-fs-text{
+    h3{
+        font-weight: 700;
+        font-size: 56px;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 20px;
+    }
+    h3 span{
+        color: #2196f3;
+    }
+    h4{
+        color: white;
+        text-transform: capitalize;
+        margin-top: 10px;
+        position: relative;
+        &::after{
+            content: '';
+            height: 2px;
+            width: 25%;
+            background: white;
+            position: absolute;
+            top: 50px;
+            right:0px;
+
+        }
+    }
+    p{
+        margin-top: 40px;
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        font-family: 'Open Sans',
+        sans-serif;
+
+    }
+}
+
+
+.banner-button{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    .banner-button-one{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background: #fff;
+        border-radius: 5px;
+        margin-left: 10px;
+        transition: .4s;
+        &:hover{
+            background: #2196f3;
+        }
+        
+        .banner-bttn-icon{
+            i{
+                padding: 15px 5px 15px 20px;
+                font-size: 30px;
+                color: $banner-bttn-text-clr;
+            }
+        }
+        .banner-bttn-text{
+            text-align: left;
+            padding: 15px 20px 15px 10px;
+            h5{
+                color: $banner-bttn-text-clr;
+                font-weight: 400;
+                font-size: 14px;
+                 font-family: 'Open Sans',
+                sans-serif;
+                transition: .4s;
+
+            }
+            h3{
+                color: $banner-bttn-text-clr;
+                font-weight: 700;
+                font-size: 18px;
+                margin-top: 10px;
+                font-family: 'Raleway', sans-serif;
+                text-transform: capitalize;
+                transition: .4s;
+
+            }
+        }
+    }
+}
+ .banner-button-one:hover .banner-bttn-text{
+     h5,h3{
+         color: white;
+     }
+ }
